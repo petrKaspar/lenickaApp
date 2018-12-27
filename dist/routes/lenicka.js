@@ -12,7 +12,7 @@ class Messages {
             let id = req.params.id;
             res.render('index', {
                 message: 'Ahoj svete!',
-                text: messages[id].name,
+                text: messages[id],
                 myCondition: true,
                 anyArray: [1, 2, 3, 4]
             });

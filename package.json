@@ -30,8 +30,6 @@
     "morgan": "latest",
     "errorhandler": "latest",
     "method-override": "latest",
-    "nodemon": "latest",
-    "typescript": "latest",
-    "tsc": "latest"
+    "nodemon": "latest"
   }
 }

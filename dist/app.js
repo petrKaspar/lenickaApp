@@ -21,8 +21,8 @@ class App {
         }));
         // set public folder
         console.log(path.join(__dirname, 'public'));
-        this.app.use(express.static(path.join(__dirname, 'public/startbootstrap-stylish-portfolio/')));
-        this.app.use('/bootstrap', express.static(path.join(__dirname, 'public/startbootstrap-stylish-portfolio/node_modules/bootstrap/dist/css/')));
+        this.app.use(express.static(path.join(__dirname, 'public')));
+        // this.app.use('/bootstrap',express.static(path.join(__dirname, 'public/startbootstrap-stylish-portfolio/node_modules/bootstrap/dist/css/')));
         //configure handlebars
         this.app.engine('hbs', handlebars({
             extname: 'hbs',
