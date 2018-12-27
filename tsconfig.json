@@ -4,7 +4,10 @@
       "module": "commonjs",
       "outDir": "dist",
       "resolveJsonModule": true,
-      "sourceMap": true
+      "paths": {
+        "views/*": ["../src/views/*"],
+        "public/*": ["../src/public/*"]
+      }
     },
     "include": [
       "src/**/*.ts"
