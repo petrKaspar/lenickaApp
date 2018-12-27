@@ -1,0 +1,6 @@
+.idea
+node_modules
+dist
+
+noticky.txt
+package-lock.json
