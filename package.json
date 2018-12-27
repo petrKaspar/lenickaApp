@@ -28,6 +28,7 @@
     "cookie-parser": "latest",
     "morgan": "latest",
     "errorhandler": "latest",
-    "method-override": "latest"
+    "method-override": "latest",
+    "nodemon": "latest"
   }
 }
