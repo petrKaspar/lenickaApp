@@ -30,6 +30,9 @@
     "morgan": "latest",
     "errorhandler": "latest",
     "method-override": "latest",
-    "nodemon": "latest"
+    "nodemon": "latest",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2",
+    "@types/node": "^10.12.18"
   }
 }
