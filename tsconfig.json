@@ -3,6 +3,7 @@
       "target": "es6",
       "module": "commonjs",
       "outDir": "dist",
+      "baseUrl": "./src",
       "resolveJsonModule": true
     },
     "include": [
@@ -10,7 +11,7 @@
     ],
     "exclude": [
       "node_modules",
-      "src/public/**",
-      "src/views/**"
+      "src/public",
+      "src/views"
     ]
 }
