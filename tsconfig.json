@@ -4,17 +4,12 @@
       "module": "commonjs",
       "outDir": "dist",
       "resolveJsonModule": true,
-      "paths": {
-        "views/*": ["../src/views/*"],
-        "public/*": ["../src/public/*"]
-      }
+      "sourceMap": true
     },
     "include": [
       "src/**/*.ts"
     ],
     "exclude": [
-      "node_modules",
-      "src/public",
-      "src/views"
+      "node_modules"
     ]
 }

@@ -20,17 +20,18 @@ class App {
             extended: false
         }));
         // set public folder
-        console.log(path.join(__dirname, 'public'));
-        this.app.use(express.static(path.join(__dirname, 'public')));
+        console.log(path.join(__dirname, '../public'));
+        this.app.use(express.static(path.join(__dirname, '../public')));
         // this.app.use('/bootstrap',express.static(path.join(__dirname, 'public/startbootstrap-stylish-portfolio/node_modules/bootstrap/dist/css/')));
         //configure handlebars
         this.app.engine('hbs', handlebars({
             extname: 'hbs',
             defaultLayout: 'layout',
-            layoutsDir: __dirname + '/views/layouts/'
+            layoutsDir: __dirname + '/../views/layouts/'
         }));
-        this.app.set('views', path.join(__dirname, 'views'));
+        this.app.set('views', path.join(__dirname, '../views'));
         this.app.set('view engine', 'hbs');
     }
 }
 exports.default = new App().app;
+//# sourceMappingURL=app.js.map
