@@ -1,158 +1,40 @@
 {
-    "1": {
-        "name": "Bulbasaur",
-        "attack": 49,
-        "defense": 49,
-        "evolveLevel": 16,
-        "evolveTo": "2",
-        "type": "grass",
-        "moves": [
-            "tackle",
-            "vine whip"
-        ],
-        "curve": 1.3,
-        "levels": [5, 10],
-        "probability": 3
-    },
-    "2": {
-        "name": "Ivysaur",
-        "attack": 62,
-        "defense": 63,
-        "evolveLevel": 32,
-        "evolveTo": "3",
-        "type": "grass",
-        "moves": [
-            "tackle",
-            "vine whip",
-            "razor leaf"
-        ],
-        "curve": 1.3
-    },
-    "3": {
-        "name": "Venusaur",
-        "attack": 82,
-        "defense": 83,
-        "type": "grass",
-        "moves": [
-            "tackle",
-            "vine whip",
-            "razor leaf"
-        ],
-        "curve": 1.3
-    },
-    "4": {
-        "name": "Charmander",
-        "attack": 52,
-        "defense": 43,
-        "evolveLevel": 16,
-        "evolveTo": "5",
-        "type": "fire",
-        "moves": [
-            "scratch",
-            "ember",
-            "metal claw"
-        ],
-        "curve": 1.3,
-        "levels": [5, 10],
-        "probability": 3
-    },
-    "5": {
-        "name": "Charmeleon",
-        "attack": 64,
-        "defense": 58,
-        "evolveLevel": 36,
-        "evolveTo": "6",
-        "type": "fire",
-        "moves": [
-            "scratch",
-            "ember",
-            "metal claw",
-            "flamethrower"
-        ],
-        "curve": 1.3
-    },
-    "6": {
-        "name": "Charizard",
-        "attack": 84,
-        "defense": 78,
-        "type": "fire",
-        "moves": [
-            "flamethrower",
-            "wing attack",
-            "slash",
-            "metal claw"
-        ],
-        "curve": 1.3
-    },
-    "7": {
-        "name": "Squirtle",
-        "attack": 48,
-        "defense": 65,
-        "evolveLevel": 16,
-        "evolveTo": "8",
-        "type": "water",
-        "moves": [
-            "tackle",
-            "bubble",
-            "water gun"
-        ],
-        "curve": 1.3,
-        "levels": [5, 10],
-        "probability": 3
-    },
-    "8": {
-        "name": "Wartortle",
-        "attack": 63,
-        "defense": 80,
-        "evolveLevel": 36,
-        "evolveTo": "9",
-        "type": "water",
-        "moves": [
-            "tackle",
-            "bubble",
-            "water gun",
-            "bite"
-        ],
-        "curve": 1.3
-    },
-    "9": {
-        "name": "Blastoise",
-        "attack": 83,
-        "defense": 100,
-        "type": "water",
-        "moves": [
-            "hydro pump",
-            "bubble",
-            "water gun",
-            "bite"
-        ],
-        "curve": 1.3
-    },
-    "10": {
-        "name": "Caterpie",
-        "attack": 30,
-        "defense": 35,
-        "evolveLevel": 7,
-        "evolveTo": "11",
-        "type": "bug",
-        "moves": [
-            "tackle"
-        ],
-        "curve": 1.6,
-        "levels": [2, 7],
-        "probability": 15
-    },
-    "12": {
-        "name": "Butterfree",
-        "attack": 45,
-        "defense": 50,
-        "type": "bug",
-        "moves": [
-            "confusion",
-            "gust",
-            "psybeam",
-            "silver wind"
-        ],
-        "curve": 1.6
-    }
+    "array": [
+        {
+            "title": "Bulbasaur",
+            "message": "Ahoj lásko ☺️. Tak jaký máš den? Doufám, že se máš hezky a nikdo tě v práci nezlobí ☺️. Myslím na tebe, Pa \uD83D\uDE18\uD83D\uDC95"
+        },
+        {
+            "title": "Ahoj hvězdičko moje třpytivá. ☺",
+            "message": "Představuj si, že tě hladím po tvé hladké tvářicce a pusinkuji po celém těle \uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18"
+        },
+        {
+            "title": "Bulbasaur",
+            "message": "Ahoj Leni ☺️.  Už ti dnes někdo stačil říci, jak moc ti to slušelí \uD83D\uDE03\uD83D\uDE18?"
+        },
+        {
+            "title": "Bulbasaur",
+            "message": "AHOJ LÁSKO ☺️, tak jak se daří? Já věřím, že moc dobře a že tam všechno zvládáš a jsi nejlepší! ☺️.  Celý den na tebe myslím. Mě se pracuje dnes hezky ☺️, jsem takový uvolněný \uD83D\uDE0A. Pa lásko \uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDC97\uD83D\uDC97"
+        },
+        {
+            "title": "Bulbasaur",
+            "message": "\uD83D\uDC9F\uD83D\uDC9F\uD83D\uDC9F ahoj Leničko moje milovaná \uD83D\uDC9F\uD83D\uDC9F\uD83D\uDC9F.  V práci je toho teď nějak hodně \uD83D\uDE15, ale tvoje SMS mě moc potěšila \uD83D\uDE0A\uD83D\uDE0A\uD83D\uDE0A.  Taky na něj myslím a těším se \uD83D\uDE04, až budu zase u tebe \uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18\uD83D\uDE18"
+        },
+        {
+            "title": "Bulbasaur",
+            "message": "Posílám minuty, za jak dlouho budu zase se svojí láskou \uD83D\uDC9E\uD83D\uDC9E\uD83D\uDC9E\uD83D\uDC95\uD83D\uDC95\uD83D\uDC9F\uD83D\uDC97❤️☺️"
+        },
+        {
+            "title": "Bulbasaur",
+            "message": "Kéž by se mi každičký den zdálo jen a jen o tobě \uD83D\uDE18 miláčku můj milovaný \uD83D\uDC9F"
+        },
+        {
+            "title": "Bulbasaur",
+            "message": "Ahoj kopretinko moje ☺️.  Jak se máš? Zase se mi po tobě zastesklo ☺️"
+        },
+        {
+            "title": "Bulbasaur",
+            "message": "Miláčku, udělej někomu radost a pošli mu třeba krátkou zprávičku o tom, jak moc ho máš ráda \uD83D\uDE18"
+        }
+    ]
 }
