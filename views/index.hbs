@@ -1,26 +1,19 @@
-<h1 class="mb-1">{{message}}</h1>
-<p>{{text}}</p>
-
-
 <!-- Header -->
 <header class="masthead d-flex">
     <div class="container text-center my-auto">
-        <h1 class="mb-1">Stylish Portfolio</h1>
+        <h1 class="mb-1">{{title}}</h1>
         <h3 class="mb-5">
-            <em>A Free Bootstrap Theme by Start Bootstrap 111111</em>
+            <em>{{message}}</em>
         </h3>
+
+        <div class="my-footer text-right align-text-bottom">
+            <h3>
+                Spolu již {{days}} dní.
+            </h3>
+        </div>
     </div>
+
+
+
     <div class="overlay"></div>
 </header>
-
-
-{{# if myCondition}}
-    My condition is TRUE <br>
-{{ else }}
-    My condition is FALSE <br>
-{{/if}}
-
-
-{{# each anyArray}}
-    {{this}} <br>
-{{/each}}
